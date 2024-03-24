@@ -1,0 +1,60 @@
+h2{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+*{
+    background-color:bisque;
+}
+.display{
+    box-sizing: border-box;
+    width: 25%;
+    height: 50px;
+    justify-content: flex-end;
+    border-radius: 8px;
+}
+.calculator{
+    text-align: center;
+    
+}
+.first, .second, .third, .fourth, .fifth, .sixth{
+    text-align: center;
+    justify-content: center;
+}
+.ac, .sin, .cos, .tan, .root, .del, .dot, .division, .seven, .eight, .nine, .mul, .four, .five, .six, .minus, .one, .two, .three, .sum, .zero, .per
+{
+    width: 59px;
+    height: 40px;
+    margin: 5px;  
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: antiquewhite;
+    box-shadow: 3px 3px 3px 3px;
+    color: white';
+    
+      
+}
+.division, .mul, .minus, .sum, .root{
+    background-color: orange;
+}
+.equal{
+    width:132px;
+    cursor: pointer;
+height: 40px;
+margin: 5px; 
+border-radius: 8px;
+background-color:aquamarine;
+box-shadow: 3px 3px 3px 3px;
+    color: white';
+    
+}
+.equal:hover{
+    background-color: chartreuse;
+    transition: 1s;
+}
+.eval{
+    width: 50%;
+    height: 100px;
+    background-color: grey;
+}
